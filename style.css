@@ -1,0 +1,124 @@
+body {
+  font-size: 16px;
+    background-color:#61122f;
+  font-family: 'Oxygen', sans-serif;
+  color: #000;
+}
+
+#header-nav{
+	background-color: #f6b789;;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img{
+	background-image: url("restaurant-logo_large.png"); 
+	background-repeat:no repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 5px 10px 0px;
+	
+}
+.navbar-brand{
+	padding-top:25px ;
+}
+.navbar-brand p{
+	font-family: 'lora',serif;
+	color: #81A263;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}*/
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	margin-top: 15px;
+  content: "";
+  display: table;
+  clear: both;
+  width: 100;
+}
+
+.navbar-brand > p:nth-child(1) {
+  float: left;
+}
+
+}
+.navbar-brand p span{
+	vertical-align: middle;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navb
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#home {
+	margin-bottom: 30px;
+}
+
+.row{
+	position: relative;
+	float: left;
+
+}
+.row > div > article {
+	background-color: #999898;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+  margin: auto;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+/* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  
+/* Restaurant name */
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
